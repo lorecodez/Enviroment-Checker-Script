@@ -1,2 +1,2 @@
-"ServerAddress","LastStatus"
-"194.163.45.71","Success"
+"ServerName","ServerAddress","LastStatus","LastCheckTime","DownSince","LastAlertTime"
+"Server1","194.163.45.71","Success","4/7/2024 10:18:56 PM","",""
