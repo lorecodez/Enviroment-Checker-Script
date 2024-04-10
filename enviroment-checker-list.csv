@@ -1,2 +1,4 @@
-"ServerName","ServerAddress","LastStatus","LastCheckTime","DownSince","LastAlertTime"
-"Server1","194.163.45.71","Success","4/7/2024 10:18:56 PM","",""
+"ServerName","ServerAddress","LastStatus","LastCheckTime","DownSince","LastDownAlertTime","Type"
+"Server01","194.163.45.71","Success","4/8/2024 9:14:32 AM","","","VPS"
+"WebServer01","lorenzowashington.com","Success","4/8/2024 9:14:32 AM","","","WEB"
+"WebServer02","greedygurlz.net","Success","4/8/2024 9:14:32 AM","","","WEB"

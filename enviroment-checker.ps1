@@ -12,8 +12,13 @@ ForEach($Server in $ServerList){
     $DownSince = $Server.DownSince
     $LastDownAlertTime = $Server.LastDownAlertTime
     $LastCheckTime = $Server.LastCheckTime
+    $Type = $Server.Type
     
-    $Connection = Test-Connection $Address -Count 1
+    $Connection = if($Type -eq 'WEB'){
+        Test-Connection $Address -TcpPort 443 -Count 1 -Detailed
+    } else {
+        Test-Connection $Address -Count 1
+    }
 
     $DateTime = Get-Date
 
